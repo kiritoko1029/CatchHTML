@@ -1,0 +1,50 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="catchHTML:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/catchHTML_jar</output-path>
+    <root id="archive" name="catchHTML.jar">
+      <element id="module-output" name="catchHTML" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/net/sourceforge/htmlunit/neko-htmlunit/2.55.0/neko-htmlunit-2.55.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/jetty-client/9.4.44.v20210927/jetty-client-9.4.44.v20210927.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/poi/poi-ooxml-schemas/3.15/poi-ooxml-schemas-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/websocket/websocket-api/9.4.44.v20210927/websocket-api-9.4.44.v20210927.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-net/commons-net/3.8.0/commons-net-3.8.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/com/alibaba/fastjson/1.2.78/fastjson-1.2.78.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-lang/commons-lang/2.5/commons-lang-2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/net/sf/json-lib/json-lib/2.4/json-lib-2.4-jdk13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/python/jython/2.7.2/jython-2.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.10.0/htmlunit-cssparser-1.10.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/poi/poi/3.15/poi-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/commons/commons-text/1.9/commons-text-1.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/com/shapesecurity/salvation2/3.0.0/salvation2-3.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/jetty-http/9.4.44.v20210927/jetty-http-9.4.44.v20210927.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/apache/poi/poi-ooxml/3.15/poi-ooxml-3.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/xerces/xercesImpl/2.12.1/xercesImpl-2.12.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/jetty-util/9.4.44.v20210927/jetty-util-9.4.44.v20210927.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/net/sourceforge/htmlunit/htmlunit/2.55.0/htmlunit-2.55.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/websocket/websocket-client/9.4.44.v20210927/websocket-client-9.4.44.v20210927.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.55.0/htmlunit-core-js-2.55.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/AppTools/maven/repository/org/eclipse/jetty/websocket/websocket-common/9.4.44.v20210927/websocket-common-9.4.44.v20210927.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

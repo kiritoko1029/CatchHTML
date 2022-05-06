@@ -50,16 +50,6 @@ public class ReptilePicUtil {
         HtmlPage page;
         try {
             page = ReptilePicUtil.initWebClient().getPage(url);
-            // HtmlTextInput start =(HtmlTextInput) page.getByXPath("/html/body/div[2]/div[6]/div/div/div/div[1]/form/div/ul/li[3]/span[2]/span[1]/span/input");
-            // start.setValueAttribute("20");
-            //System.out.println(page.getByXPath("/html/body/div[1]/div[1]/div[2]/div/div[3]/div[1]/input").get(0));
-
-         /*       for (int i = 0; i < tag; i++) {
-                    HtmlAnchor anchor = (HtmlAnchor) page.getByXPath("/html/body/div[1]/div[3]/div[2]/div/a[2]").get(0);
-                    page = anchor.click();
-            }
-            System.out.println("点击了"+tag+"次");*/
-
         } catch (Exception e) {
             ReptilePicUtil.initWebClient().close();
             throw e;
@@ -89,10 +79,8 @@ public class ReptilePicUtil {
     public static String getByXpath(String html, String className, int tag) {
         List<String> result = new ArrayList<>();
         Document document = Jsoup.parse(html);//获取html文档
-        //System.out.println(document);
         Elements e = document.getElementsByClass(className);//获取元素节点等
         String out = "";
-        //tring str =infoListEle.children().text();
         if (tag == 0) {
             for (int i = 1; i < e.size(); i++) {
                 if (i == e.size() - 1)
@@ -106,7 +94,6 @@ public class ReptilePicUtil {
     }
 
     public static Map<String, Object> outStrDecode(int tag, String str) {
-        System.out.println(tag);
         String years[] = {
                 "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021","2022","total"
         };
@@ -177,7 +164,6 @@ public class ReptilePicUtil {
                 String text = ReptilePicUtil.getByXpath(xml, "c-color-gray2", 1);
                 count++;
                 System.out.println("进度：" + count + "/"+totalLength);
-
                 outStr = outStr + text + " ";
                 System.out.println(outStr);
                 String newsNum = text.split(" ")[1];
@@ -201,7 +187,6 @@ public class ReptilePicUtil {
                 Map map = ReptilePicUtil.outStrDecode((int) tag, outStr);
                 resultMap.put(banks[i]+"+"+keyWords[j], map);
             }
-
         }
         JSONObject obj = JSONObject.parseObject(JSON.toJSONString(resultMap));
         try {
